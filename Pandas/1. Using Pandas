@@ -1,0 +1,8 @@
+#get the maximum temparature 
+df['Temperature'].max()
+
+#to know which day it rains
+df['EST'][df['Events'] == 'Rain']
+
+#3. average wind speed
+df['WindSpeedMPH'].mean()
