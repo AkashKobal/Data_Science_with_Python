@@ -1,0 +1,54 @@
+#import numpy libraries
+import numpy as np
+
+
+#first Numpy array
+first_numpy_array=np.array([1,2,3,4])
+
+#print first array
+print(first_numpy_array)
+
+
+#array with zeroes 
+array_with_zeroes=np.zeros((3,3))
+print(array_with_zeroes)
+
+
+#array with ones
+array_with_ones=np.ones((3,3))
+print(array_with_ones)
+
+
+#array with empty
+array_with_empty = np.empty((3,4))
+print(array_with_empty)
+
+
+#array with range method
+array_with_range_method = np.arange(12)
+print(array_with_range_method)
+
+
+#reshape method to change/create array
+array_with_range_method.reshape(3,4)
+
+
+#inspace for linearly (equal) spaced data elements
+array_with_linspace = np.linspace(1,6,5)
+#First element =1, Second element =6 , Total number of equidistance element = 5
+print(array_with_linspace )
+
+
+#one dimensional array
+one_dimensional_array = np.arange(15)
+print(one_dimensional_array)
+
+
+#two dimensional array
+two_dimensional_array = one_dimensional_array.reshape(3,5)
+print(two_dimensional_array)
+
+
+#three dimensional array
+three_dimensional_array = np.arange(27).reshape(3,3,3)
+print(three_dimensional_array)
