@@ -1,0 +1,28 @@
+import numpy as np
+
+A = np.array([[1,2,3],[4,5,6]])
+B = np.array(([4,5,6],[7,8,9]))
+
+print(A)
+print(B)
+
+#Addition
+np.add(A,B)
+
+
+#subtraction
+np.subtract(B,A)
+
+
+#multiply
+np.multiply(A,B)
+
+
+#Divide
+np.divide(A,B)
+
+
+#power of array
+np.power(A,2)
+
+np.power(A,B)
