@@ -1,0 +1,14 @@
+import numpy as np
+
+
+X = np.array([i for i in range(10)])
+print(X)
+np.where(X%2==0,'Even','Odd')
+
+
+#creating condition list
+condition_list = [(X<3),(X>5)]
+choicelist= (X==2,X==3)
+
+
+np.select(condition_list, choicelist ,default=X)
